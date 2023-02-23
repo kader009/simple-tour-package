@@ -16,7 +16,7 @@
 3. try to use some eye catching color.
 
 
-live link : 
+live link : https://astonishing-baklava-ccd598.netlify.app/
 
 
 
