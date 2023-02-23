@@ -30,12 +30,12 @@ const Tours = ({tour, Remove}) => {
         <div className='d-flex justify-content-between align-items-center'>
           
         <div onClick={notify2}>
-          <Button onClick={() => Remove(id)}>Remove</Button>
+          <Button onClick={() => Remove(id)} variant="outline-dark">Remove</Button>
           
         </div>
         <div>
 
-        <Button onClick={notify} variant="primary">Buy Now <FontAwesomeIcon icon={faShoppingCart} /></Button>
+        <Button onClick={notify} variant="outline-primary">Buy Now <FontAwesomeIcon icon={faShoppingCart} /></Button>
         <Toaster/>
         </div>
         </div>
