@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import toast, { Toaster } from 'react-hot-toast';
+import './Tours.css'
 
 
 
@@ -15,13 +16,13 @@ const Tours = ({tour, Remove}) => {
 
 
   return (
-    <div>
-      <Card style={{ width: '25rem' }}>
+    <div >
+      <Card className='tours'>
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title><h4 className='text-primary'>{name}</h4></Card.Title>
         <Card.Text className='text-secondary'>
-          {info.slice(0, 130) + '... Read more'}
+          {info.slice(0, 125) + '... Read more'}
         </Card.Text>
         <Card.Text className='text-primary fw-bold '>
         price: {price}

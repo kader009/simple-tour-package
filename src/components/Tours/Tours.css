@@ -1,0 +1,20 @@
+.tours{
+  width: 25rem;
+}
+
+
+@media only screen and (max-width:56.25rem){
+  .tours{
+    width: 24rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width:36rem){
+  .tours{
+    width: 22rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
